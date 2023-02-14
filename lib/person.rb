@@ -68,8 +68,7 @@ class Person
             'blah blah sun blah rain'
 
         else
-
-        "blah blah blah blah blah"
+            "blah blah blah blah blah"
 
         end
 
