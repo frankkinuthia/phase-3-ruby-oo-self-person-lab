@@ -120,3 +120,18 @@ getter and/or setter methods.
     increases by 1) and the method returns `"blah blah sun blah rain"`.
   - If the topic is not politics or weather, their happiness points don't change
     and the method returns `"blah blah blah blah blah"`.
+
+
+### Solution
+
+- The code above is a Ruby class named "Person" that defines a blueprint for creating `Person` objects with various attributes and behaviors.
+
+- When a new Person object is created, it takes an argument of a name and initializes instance variables such as `@bank_account` with an initial value of 25, `@happiness` with an initial value of 8, and `@hygiene` with an initial value of 8.
+
+- The class provides getter and setter methods for accessing and modifying the instance variables such as `Person#name`, `Person#bank_account`, `Person#happiness`, and `Person#hygiene`.
+
+- Additionally, the class provides several instance methods such as `Person#clean?`, `Person#happy?`, `Person#get_paid`, `Person#take_bath`, `Person#work_out`, `Person#call_friend`, and `Person#start_conversation` to perform certain behaviors on the Person object.
+
+- For example, the `Person#clean?` method checks if the person's hygiene is more than seven and returns true or false accordingly. The `Person#take_bath` method increments the person's hygiene points by four and returns a string. The `Person#work_out` method increments the person's happiness by two points, decreases their hygiene by three points, and returns a string.
+
+- The `Person#call_friend` method accepts another instance of the Person class as an argument, increments the person and the friend's happiness points by three, and returns a string. Finally, the `Person#start_conversation` method accepts two arguments, the friend to start a conversation with and the topic of conversation. Based on the topic of conversation, it can modify the happiness points of both people and return a string.
